@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Bar Charts.xcodeproj">
+      location = "self:/Users/mak/Desktop/My Projects/Bar Charts/Money Tracker.xcodeproj">
    </FileRef>
 </Workspace>

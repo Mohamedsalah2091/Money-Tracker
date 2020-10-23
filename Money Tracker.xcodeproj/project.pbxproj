@@ -14,6 +14,10 @@
 		2418F805253F805300F124CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2418F804253F805300F124CC /* Assets.xcassets */; };
 		2418F808253F805300F124CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2418F806253F805300F124CC /* LaunchScreen.storyboard */; };
 		2418F813253F805300F124CC /* Bar_ChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2418F812253F805300F124CC /* Bar_ChartsTests.swift */; };
+		2418F8272542310400F124CC /* AlertShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2418F8242542310400F124CC /* AlertShow.swift */; };
+		2418F8282542310400F124CC /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2418F8252542310400F124CC /* AlertService.swift */; };
+		2418F8292542310400F124CC /* AlertDesign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2418F8262542310400F124CC /* AlertDesign.storyboard */; };
+		2421803C2543132700D48495 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421803B2543132700D48495 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2418F7F8253F805100F124CC /* Bar Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar Charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2418F7F8253F805100F124CC /* Money Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2418F7FB253F805100F124CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2418F7FD253F805100F124CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2418F7FF253F805100F124CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +39,13 @@
 		2418F804253F805300F124CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2418F807253F805300F124CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2418F809253F805300F124CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2418F80E253F805300F124CC /* Bar ChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bar ChartsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2418F80E253F805300F124CC /* Money TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2418F812253F805300F124CC /* Bar_ChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar_ChartsTests.swift; sourceTree = "<group>"; };
 		2418F814253F805300F124CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2418F8242542310400F124CC /* AlertShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertShow.swift; sourceTree = "<group>"; };
+		2418F8252542310400F124CC /* AlertService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		2418F8262542310400F124CC /* AlertDesign.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlertDesign.storyboard; sourceTree = "<group>"; };
+		2421803B2543132700D48495 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +78,8 @@
 		2418F7F9253F805100F124CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2418F7F8253F805100F124CC /* Bar Charts.app */,
-				2418F80E253F805300F124CC /* Bar ChartsTests.xctest */,
+				2418F7F8253F805100F124CC /* Money Tracker.app */,
+				2418F80E253F805300F124CC /* Money TrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +87,7 @@
 		2418F7FA253F805100F124CC /* Bar Charts */ = {
 			isa = PBXGroup;
 			children = (
+				2418F8232542310400F124CC /* Custom Alert View */,
 				2418F7FB253F805100F124CC /* AppDelegate.swift */,
 				2418F7FD253F805100F124CC /* SceneDelegate.swift */,
 				2418F7FF253F805100F124CC /* ViewController.swift */,
@@ -86,6 +95,7 @@
 				2418F804253F805300F124CC /* Assets.xcassets */,
 				2418F806253F805300F124CC /* LaunchScreen.storyboard */,
 				2418F809253F805300F124CC /* Info.plist */,
+				2421803B2543132700D48495 /* TableViewCell.swift */,
 			);
 			path = "Bar Charts";
 			sourceTree = "<group>";
@@ -99,12 +109,22 @@
 			path = "Bar ChartsTests";
 			sourceTree = "<group>";
 		};
+		2418F8232542310400F124CC /* Custom Alert View */ = {
+			isa = PBXGroup;
+			children = (
+				2418F8242542310400F124CC /* AlertShow.swift */,
+				2418F8252542310400F124CC /* AlertService.swift */,
+				2418F8262542310400F124CC /* AlertDesign.storyboard */,
+			);
+			path = "Custom Alert View";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2418F7F7253F805100F124CC /* Bar Charts */ = {
+		2418F7F7253F805100F124CC /* Money Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2418F817253F805300F124CC /* Build configuration list for PBXNativeTarget "Bar Charts" */;
+			buildConfigurationList = 2418F817253F805300F124CC /* Build configuration list for PBXNativeTarget "Money Tracker" */;
 			buildPhases = (
 				2418F7F4253F805100F124CC /* Sources */,
 				2418F7F5253F805100F124CC /* Frameworks */,
@@ -114,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = "Bar Charts";
+			name = "Money Tracker";
 			productName = "Bar Charts";
-			productReference = 2418F7F8253F805100F124CC /* Bar Charts.app */;
+			productReference = 2418F7F8253F805100F124CC /* Money Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2418F80D253F805300F124CC /* Bar ChartsTests */ = {
+		2418F80D253F805300F124CC /* Money TrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2418F81A253F805300F124CC /* Build configuration list for PBXNativeTarget "Bar ChartsTests" */;
+			buildConfigurationList = 2418F81A253F805300F124CC /* Build configuration list for PBXNativeTarget "Money TrackerTests" */;
 			buildPhases = (
 				2418F80A253F805300F124CC /* Sources */,
 				2418F80B253F805300F124CC /* Frameworks */,
@@ -132,9 +152,9 @@
 			dependencies = (
 				2418F810253F805300F124CC /* PBXTargetDependency */,
 			);
-			name = "Bar ChartsTests";
+			name = "Money TrackerTests";
 			productName = "Bar ChartsTests";
-			productReference = 2418F80E253F805300F124CC /* Bar ChartsTests.xctest */;
+			productReference = 2418F80E253F805300F124CC /* Money TrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2418F7F3253F805100F124CC /* Build configuration list for PBXProject "Bar Charts" */;
+			buildConfigurationList = 2418F7F3253F805100F124CC /* Build configuration list for PBXProject "Money Tracker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,8 +189,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2418F7F7253F805100F124CC /* Bar Charts */,
-				2418F80D253F805300F124CC /* Bar ChartsTests */,
+				2418F7F7253F805100F124CC /* Money Tracker */,
+				2418F80D253F805300F124CC /* Money TrackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +203,7 @@
 				2418F808253F805300F124CC /* LaunchScreen.storyboard in Resources */,
 				2418F805253F805300F124CC /* Assets.xcassets in Resources */,
 				2418F803253F805100F124CC /* Main.storyboard in Resources */,
+				2418F8292542310400F124CC /* AlertDesign.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +224,9 @@
 				2418F800253F805100F124CC /* ViewController.swift in Sources */,
 				2418F7FC253F805100F124CC /* AppDelegate.swift in Sources */,
 				2418F7FE253F805100F124CC /* SceneDelegate.swift in Sources */,
+				2421803C2543132700D48495 /* TableViewCell.swift in Sources */,
+				2418F8272542310400F124CC /* AlertShow.swift in Sources */,
+				2418F8282542310400F124CC /* AlertService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +243,7 @@
 /* Begin PBXTargetDependency section */
 		2418F810253F805300F124CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2418F7F7253F805100F124CC /* Bar Charts */;
+			target = 2418F7F7253F805100F124CC /* Money Tracker */;
 			targetProxy = 2418F80F253F805300F124CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,7 +436,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bar Charts.app/Bar Charts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money Tracker.app/Money Tracker";
 			};
 			name = Debug;
 		};
@@ -434,14 +458,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bar Charts.app/Bar Charts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money Tracker.app/Money Tracker";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2418F7F3253F805100F124CC /* Build configuration list for PBXProject "Bar Charts" */ = {
+		2418F7F3253F805100F124CC /* Build configuration list for PBXProject "Money Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2418F815253F805300F124CC /* Debug */,
@@ -450,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2418F817253F805300F124CC /* Build configuration list for PBXNativeTarget "Bar Charts" */ = {
+		2418F817253F805300F124CC /* Build configuration list for PBXNativeTarget "Money Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2418F818253F805300F124CC /* Debug */,
@@ -459,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2418F81A253F805300F124CC /* Build configuration list for PBXNativeTarget "Bar ChartsTests" */ = {
+		2418F81A253F805300F124CC /* Build configuration list for PBXNativeTarget "Money TrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2418F81B253F805300F124CC /* Debug */,
